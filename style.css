@@ -1,5 +1,5 @@
 body {
-font-family: Helvetica, san-serif;
+font-family: Helvetica,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif san-serif;
 font-size: 24px;}
 header{
 	display: flex;
@@ -81,9 +81,13 @@ margin-top: 40px;
 margin-top: 50px;
 color: rgb(238, 10, 10)
 }
-  
+
+  .gallery-frame{
+	  margin-top: 100px;
+  }
 h2 {
-    margin: 0;
+	color: blue;
+	margin:0;
 }
 
 .gallery {
@@ -95,11 +99,13 @@ h2 {
 .gallery > img {
 	width: 200px;
 	height: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
-.gallery.gallery:nth-of-type(2n) {
+.gallery.gallery:nth-of-type(2n-1) {
 	flex-direction: row-reverse;
 }
-.gallery.gallery:nth-of-type(2n-1){
+.gallery.gallery:nth-of-type(2n){
 	flex-direction: row;
 	justify-content: flex-start;
 	
