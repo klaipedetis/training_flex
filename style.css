@@ -1,0 +1,106 @@
+body {
+font-family: Helvetica, san-serif;
+font-size: 24px;}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	margin-bottom: 100px;
+	background-color: greenyellow;
+}
+.site-menu{
+	display: flex;
+	font-size: 18px;
+	font-weight: bold;
+	color: green;
+}
+.logo{
+	margin-left: 50px;
+}
+li{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+/* Нечётные параграфы */
+p:nth-of-type(2n+1) {
+	color: red;
+  }
+  
+  /* Чётные параграфы */
+  p:nth-of-type(2n) {
+	color: blue;
+  }
+  
+  /* Первый параграф */
+  p:nth-of-type(1) {
+	font-weight: bold;
+  }
+
+
+.comment1 {
+color: blue;
+}
+
+.comment2 {
+color: red;
+}
+
+.me {
+background-color: grey;
+color: white;
+font-size: 36px;
+}
+
+#post1 {
+color: blue;
+}
+
+div {
+color: red;
+}
+
+div div {
+color: green;
+}
+
+.antra {
+color: rgb(7, 7, 48);
+}
+
+#pirma {
+color: orange;
+}
+
+#tarpas {
+margin-top: 40px;
+}
+.trey{margin-bottom: 30px;}
+
+.for {
+margin-top: 50px;
+color: rgb(238, 10, 10)
+}
+  
+h2 {
+    margin: 0;
+}
+
+.gallery {
+    box-shadow: 5px 5px 10px grey;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.gallery > img {
+    width: 200px;
+}
+.gallery:nth-of-type(2) {
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+.gallery:nth-of-type(2n=1){
+	flex-direction: row;
+	justify-content: flex-start;
+	
+}
