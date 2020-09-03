@@ -95,11 +95,10 @@ h2 {
 .gallery > img {
     width: 200px;
 }
-.gallery:nth-of-type(2) {
+.gallery.gallery:nth-of-type(2n) {
 	flex-direction: row-reverse;
-	justify-content: flex-end;
 }
-.gallery:nth-of-type(2n=1){
+.gallery.gallery:nth-of-type(2n-1){
 	flex-direction: row;
 	justify-content: flex-start;
 	
