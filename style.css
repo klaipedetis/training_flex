@@ -107,6 +107,6 @@ h2 {
 }
 .gallery.gallery:nth-of-type(2n){
 	flex-direction: row;
-	justify-content: flex-start;
+
 	
 }
